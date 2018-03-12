@@ -1,0 +1,33 @@
+{
+  "name": "renovate-config-mdg-docs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github:meteor/renovate-config-mdg-docs",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base"
+      ],
+      "prHourlyLimit": 10,
+      "assignees": [
+        "abernix"
+      ],
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "\\bhexo\\b",
+            "chexo"
+          ],
+          "groupName": "Hexo-related",
+          "automerge": true
+        }
+      ]
+    }
+  }
+}
