@@ -1,7 +1,7 @@
 {
   "name": "renovate-config-mdg-docs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Renovate configuration for MDG documentation properties.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
