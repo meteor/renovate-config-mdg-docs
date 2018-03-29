@@ -19,6 +19,9 @@
       "assignees": [
         "abernix"
       ],
+      "nvm": {
+        "automerge": true
+      },
       "packageRules": [
         {
           "packagePatterns": [
