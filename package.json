@@ -31,7 +31,7 @@
           "groupName": "Hexo-related",
           "prCreation": "not-pending",
           "prNotPendingHours": 1,
-          "automerge": true
+          "automerge": false
         }
       ]
     }
