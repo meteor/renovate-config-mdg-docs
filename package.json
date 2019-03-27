@@ -14,7 +14,9 @@
       "extends": [
         "config:base"
       ],
-      "schedule": [],
+      "schedule": "every weekend",
+      "timezone": "America/Los_Angeles",
+      "updateNotScheduled": false,
       "prHourlyLimit": 10,
       "assignees": [
         "abernix"
@@ -26,12 +28,25 @@
         {
           "packagePatterns": [
             "\\bhexo\\b",
+            "\\bgatsby\\b",
             "chexo"
           ],
-          "groupName": "Hexo-related",
+          "groupName": "Documentation infrastructure",
           "prCreation": "not-pending",
           "prNotPendingHours": 1,
-          "automerge": false
+          "automerge": true
+        },
+        {
+          "groupName": "Documentation theme",
+          "packageNames": [
+            "gatsby-theme-apollo-docs",
+            "meteor-theme-hexo"
+          ],
+          "schedule": "at any time",
+          "prCreation": "not-pending",
+          "prNotPendingHours": 1,
+          "automerge": "true",
+          "updateNotScheduled": true
         }
       ]
     }
