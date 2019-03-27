@@ -28,7 +28,7 @@
             "\\bhexo\\b",
             "chexo"
           ],
-          "groupName": "Hexo-related",
+          "groupName": "Documentation infrastructure",
           "prCreation": "not-pending",
           "prNotPendingHours": 1,
           "automerge": false
