@@ -28,6 +28,7 @@
         {
           "packagePatterns": [
             "\\bhexo\\b",
+            "\\bgatsby\\b",
             "chexo"
           ],
           "groupName": "Documentation infrastructure",
