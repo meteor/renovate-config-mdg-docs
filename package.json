@@ -47,6 +47,12 @@
           "prNotPendingHours": 1,
           "automerge": "true",
           "updateNotScheduled": true
+        },
+        {
+          "packageNames": [
+            "hexo-renderer-less"
+          ],
+          "allowedVersions": "0.x"
         }
       ]
     }
