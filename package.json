@@ -18,9 +18,7 @@
       "timezone": "America/Los_Angeles",
       "updateNotScheduled": false,
       "prHourlyLimit": 10,
-      "assignees": [
-        "abernix"
-      ],
+      "assignees": [],
       "nvm": {
         "automerge": true
       },
