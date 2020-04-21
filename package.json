@@ -37,7 +37,6 @@
         {
           "groupName": "Documentation theme",
           "packageNames": [
-            "gatsby-theme-apollo-docs",
             "meteor-theme-hexo"
           ],
           "schedule": "at any time",
